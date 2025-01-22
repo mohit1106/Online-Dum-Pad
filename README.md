@@ -6,3 +6,4 @@ An online Drum Pad where you can play Drum Kit using Keyboard Buttons or Clicks.
 
 How to play:
 use keys that are shown on your keyboard or simply tap using your cursor.
+if there is any error, just reload the page.

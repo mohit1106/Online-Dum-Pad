@@ -15,6 +15,7 @@ document.addEventListener("keypress", function(event) {
 });
 ////////////////////////////////////////////////////////////////////////////////////
 
+
 function makeSound(key) {
     switch (key) {
         case "w":

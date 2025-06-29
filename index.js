@@ -1,4 +1,4 @@
-/////////////////////////////////////////////////////////////////////////////////// detecting the clicks on buttons
+///////////////////////////////////// detecting the clicks on buttons
 for (var i = 0; i < document.querySelectorAll(".drum").length; i++) {
     document.querySelectorAll(".drum")[i].addEventListener("click", function() {
         var buttonInnerHTML = this.innerHTML;
@@ -7,7 +7,7 @@ for (var i = 0; i < document.querySelectorAll(".drum").length; i++) {
     });
 }
 
-//////////////////////////////////////////////////////////////////////////////////// detecting the keyboard presses
+//////////////////////////// detecting the keyboard presses
 document.addEventListener("keypress", function(event) {
     var keyPressed = event.key;
     makeSound(keyPressed);
